@@ -1,0 +1,89 @@
+/* reset styles*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-width: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    background: #E5E5E5;
+    font-family: 'Gotham Pro';
+}
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+input,
+button, 
+textarea, 
+select {
+    font: inherit;
+}
+
+/* reset styles*/
+
+.container {
+
+}
+
+.headerdiv {
+    width: 1920px;
+    height: 80px;
+    background: #FFFFFF;
+}
+
+.mainname {
+position: absolute;
+width: 159px;
+height: 32px;
+left: 512px;
+top: 22px;
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 40px;
+color: #476BF0;
+} 
+
+.borderline {
+position: absolute;
+width: 50px;
+height: 0px;
+left: 620px;
+top: 40px;
+border: 1px solid #525252;
+transform: rotate(90deg);
+}
+
+._mainname {
+position: absolute;
+width: 114px;
+height: 32px;
+left: 660px;
+top: 18px;
+
+font-family: 'Gotham Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+
+
+
+color: #525252;
+}
