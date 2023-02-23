@@ -18,7 +18,7 @@ body {
     min-width: 100vh;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
-    background: #E5E5E5;
+    background: #d8e1ff;
     font-family: 'Gotham Pro';
 }
 
@@ -38,13 +38,12 @@ select {
 /* reset styles*/
 
 /*.container {
-
 }*/
 
 .headerdiv {
     width: 1920px;
-    height: 80px;
-    background: #FFFFFF;
+    height: 60px;
+    background: #9eadff;
 }
 
 .mainname {
@@ -52,12 +51,13 @@ position: absolute;
 width: 159px;
 height: 32px;
 left: 412px;
-top: 22px;
+top: 10px;
 font-style: normal;
 font-weight: 700;
 font-size: 42px;
 line-height: 40px;
-color: #476BF0;
+color: #fff;
+text-decoration: none;
 } 
 
 .borderline {
@@ -65,17 +65,18 @@ position: absolute;
 width: 50px;
 height: 0px;
 left: 520px;
-top: 40px;
+top: 30px;
 border: 1px solid #525252;
 transform: rotate(90deg);
 }
 
-._mainname {
+.fmainname {
 position: absolute;
 width: 114px;
 height: 32px;
 left: 560px;
-top: 18px;
+top: 5px;
+color: #fff;
 
 font-family: 'Gotham Pro';
 font-style: normal;
@@ -83,7 +84,7 @@ font-weight: 400;
 font-size: 20px;
 line-height: 120%;
 
-color: #525252;
+color: #353535;
 }
 
 .mw {
@@ -91,6 +92,35 @@ color: #525252;
     padding-left: 850px;
     padding-top: 10px;
 }
+
+    .mw2 {
+        background: rgb(255,151,0);
+        border: none;
+        z-index: 1;
+      }
+      .mw2 {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 0;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        border-radius: 5px;
+        background-color: #eaf818;
+        background-image: linear-gradient(315deg, #eaf818 0%, #f6fc9c 74%);
+         box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5);
+        transition: all 0.3s ease;
+      }
+      .mw2:hover:after {
+        top: auto;
+        bottom: 0;
+        height: 100%;
+      }
+      .mw2:active {
+        top: 20px;
+      }
+
 
 .mw a {
 float: left;
@@ -109,17 +139,34 @@ border-radius: 15px;
 }
 
 .secdiv{ 
-    background: #888888;
-    height: 60px;
+    background: #4e4e4e;
+    height: 80px;
 }
 
 .imagef {
     margin-left: 410px;
+    width: 300px;
 }
 
 .secdivwr {
     padding-left: 730px;
-  
 }
 
-  
+.main_info {
+    margin-left: 800px;
+    margin-top: 120px;
+    border: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.80);
+    padding: 5px 50px 0px 50px;
+
+}
+
+dd{
+    margin-left: 209px;
+    margin-top: -23px;
+}
+
+hr {
+    width: 735px;
+}
+
