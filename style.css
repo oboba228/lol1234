@@ -20,7 +20,9 @@ body {
     line-height: 1.5;
     background: #d8e1ff;
     font-family: 'Gotham Pro';
+    background: #1c59d1 url(https://static.schools.by/images/header-bg/img-18.jpg) no-repeat center top;
 }
+
 
 img,
 picture {
@@ -42,87 +44,33 @@ select {
 
 .headerdiv {
     width: 1920px;
-    height: 75px;
-    background: #9eadff;
+    height: 65px;
+    background: #2848ff;
 }
 
-.mainname {
+.mainlogo {
 position: absolute;
-width: 159px;
+width: 129px;
 height: 32px;
-left: 412px;
-top: 15px;
+left: 330px;
 font-style: normal;
 font-weight: 700;
-font-size: 42px;
-line-height: 40px;
+font-size: 30px;
+line-height: 65px;
 color: #fff;
 text-decoration: none;
-} 
-
-.borderline {
-position: absolute;
-width: 50px;
-height: 0px;
-left: 520px;
-top: 35px;
-border: 1px solid #525252;
-transform: rotate(90deg);
-}
-
-.fmainname {
-position: absolute;
-width: 114px;
-height: 32px;
-left: 560px;
-top: 10px;
-color: #fff;
-font-family: 'Gotham Pro';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 120%;
-color: #353535;
 }
 
 .mw {
     overflow: hidden;
     padding-left: 850px;
-    padding-top: 10px;
+    padding-top: 5px;
+    
 }
-
-    .mw2 {
-        
-        border: none;
-        z-index: 1;
-      }
-      /*.mw2 {
-        position: absolute;
-        content: "";
-        width: 100%;
-        height: 0;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        border-radius: 5px;
-        background-color: #eaf818;
-        background-image: linear-gradient(315deg, #eaf818 0%, #f6fc9c 74%);
-         box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5);
-        transition: all 0.3s ease;
-      }*/
-      .mw2:hover:after {
-        top: auto;
-        bottom: 0;
-        height: 100%;
-      }
-      /*.mw2:active {
-        top: 20px;
-      }*/
-
 
 .mw a {
 float: left;
-color: #6e6565;
+color: #ffffff;
 text-align: center;
 padding: 14px 70px;
 text-decoration: none;
@@ -136,26 +84,47 @@ color: black;
 border-radius: 15px;
 }
 
+.reg {
+    overflow: hidden;
+}
+
+.reg a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    } 
+    
+    .reg a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 15px;
+    }
+
 .secdiv{ 
-    background: #4e4e4e;
+    background: #5872e9;
     height: 80px;
+    opacity: 80%;
 }
 
 .imagef {
-    margin-left: 410px;
-    width: 300px;
+    margin-left: 330px;
+    width: 220px;
 }
 
 .secdivwr {
     padding-left: 730px;
+    
 }
 
 .main_info {
-    margin-left: 735px;
-    margin-top: 160px;
+    margin-left: 300px;
+    margin-top: 10px;
     border: 1.5px solid;
     box-shadow: 0px 0px 5px 0px ;
-    padding: 5px 0px 5px 10px;
+    padding: 10px 10px 10px 12px;
     border-radius: 5px;
     width: 755px;
 }
@@ -170,9 +139,13 @@ hr {
 }
 
 .maindiv {
-    width: 1920px;
-    height: 500px;
-    background: #ebebeb;
+    width: 1320px;
+    margin-left: 300px;
+    height: 1000px;
+    background: #fdfdfd;
+    padding-top: 1px;
+    margin-top: 100px;
+    border-radius: 8px;
 }
 
 .t1 {
@@ -185,9 +158,9 @@ hr {
 
 .mainsc_column {
     font-size: 12px;
-    margin-top: -118px;
+    margin-top: -130px;
     width: 200px;
-    height: 130px;
+    height: 150px;
     display: inline-block;
     border-radius: 4px;
     position: relative;
@@ -198,12 +171,19 @@ hr {
     color: #006db9;
     border-top: 1px solid #FFF;
     background: #F3F5FF;
-    margin-left: 400px;
+    margin-left: 30px;
     padding: 5px;
     box-shadow: 0px 0px 3px 0px ;
     cursor: pointer;
     vertical-align: middle;
     text-decoration: none;
+}
+
+.mainsc_column a{
+    color: #0057DA;
+    padding-right: 17px;
+    padding: 2px 2px 5px 2px;
+    display: block;
 }
 
 .d1 {
@@ -236,6 +216,44 @@ hr {
 }
 
 h1 {
-    padding-left: 650px;
+    padding-left: 250px;
     padding-bottom: 580px;
 }
+
+.sch_news_item {
+    margin-left: 150px;
+    margin-top: -560px;
+} 
+
+.sch_news_item2 {
+    margin-top: 20px;
+}
+
+.sch_news_item3 {
+    margin-top: 20px;
+}
+
+.dw {
+    margin-top: 500px;
+    width: auto;
+}
+
+.footer_menu ul {
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 500px;
+    position: relative;
+}
+
+.footer_menu li {
+    float: left;
+    margin: 0 10px;
+}
+
+#footer .sep {
+    width: 1px;
+    height: 15px;
+    background: #ccc;
+    top: 2px;
+}
+
