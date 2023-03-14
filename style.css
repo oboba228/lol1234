@@ -1,4 +1,4 @@
-/* reset styles*/
+@media screen and(max-width: 2000px){/* reset styles*/
 * {
     margin: 0;
     padding: 0;
@@ -63,7 +63,7 @@ text-decoration: none;
 
 .mw {
     overflow: hidden;
-    padding-left: 850px;
+    padding-left: 660px;
     padding-top: 5px;
     
 }
@@ -139,7 +139,7 @@ hr {
 }
 
 .maindiv {
-    width: 1320px;
+    width: 1260px;
     margin-left: 300px;
     height: 1000px;
     background: #fdfdfd;
@@ -156,11 +156,21 @@ hr {
     margin-top: 100px;
 }
 
+.seo {
+    padding-left: 1100px;
+    margin-top: -130px;
+}
+
+.nseo {
+    padding-left: 1100px;
+    font-size: 15px;
+}
+
 .mainsc_column {
     font-size: 12px;
-    margin-top: -130px;
+    margin-top: -325px;
     width: 200px;
-    height: 150px;
+    height: 146px;
     display: inline-block;
     border-radius: 4px;
     position: relative;
@@ -235,25 +245,44 @@ h1 {
 
 .dw {
     margin-top: 500px;
-    width: auto;
+    width: 1260px;
+    margin-left: -30px;
 }
 
-.footer_menu ul {
+.footer {
     overflow: hidden;
     display: inline-block;
-    margin-left: 500px;
     position: relative;
 }
 
-.footer_menu li {
-    float: left;
-    margin: 0 10px;
+.footer a {
+    color: #000;
 }
 
-#footer .sep {
-    width: 1px;
-    height: 15px;
-    background: #ccc;
-    top: 2px;
+.fm3 {
+    margin-left: 20px;
 }
 
+.fm2 {
+    margin-left: 20px;
+}
+
+.fm1 {
+    margin-left: 500px;
+}
+
+.fp {
+    padding-left: 1110px;
+    font-size: 14px;
+    margin-top: -20px;
+}
+
+.div_news {
+    width: 1030px;
+    height: 500px;
+    margin-left: 30px;
+    margin-top: -70px;
+    display: block;
+    box-shadow: 2px 2px 2px 2px ;
+}
+}
