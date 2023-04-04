@@ -44,12 +44,16 @@ select {
 .container {
     display: flex;
     flex-wrap: wrap;
-
+    width: 1920px;
 }
 
 .headerdiv {
     height: 40px;
     background: #2848ff;
+}
+
+.container-hd {
+
 }
 
 .mw {
@@ -137,6 +141,10 @@ hr {
     border-radius: 3px 5px 0px 0px;
 }
 
+.container-md {
+
+}
+
 .div_news {
     width: 1030px;
     height: 450px;
@@ -195,50 +203,68 @@ h2 {
 
 .mainsc_column {
     margin-top: -375px;
-    width: 200px;
-    height: 128px;
+    width: 150px;
+    height: 127px;
     display: inline-block;
     border-radius: 4px;
     border: 1px solid #fff;
     color: #006db9;
     background: #F3F5FF;
     margin-left: 30px;
-    padding: 5px;
     box-shadow: 0px 0px 3px 0px ;
     cursor: pointer;
     vertical-align: middle;
+    
 }
 
-.mainsc_column a{
-    color: #0057DA;
-    padding-right: 17px;
-    padding: 8px 5px 8px 10px;
+.mainsc_column a {
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none; /* Убираем подчеркивание */
+    cursor: pointer;
+    padding: 9px 12px;
+    text-decoration: none;
+    font-size: 16px;
     display: block;
-    outline: 0;
+}
+.mainsc_column a:after {
+    background-color: #f66d52;  /*Цвет линии при наведении на нее курсора мыши */
+    display: block;
+    content: "";
+    height: 2px;  /*Высота линии*/ 
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.mainsc_column a:hover:after,
+.mainsc_column a:focus:after {
+    width: 100%;
+    
 }
 
-.mainsc_column .d1, .d2, .d3 a {
+.mainsc_column .d1 , .d2 a, .d3 a {
     color: #0057DA
 }
 
 .d1 {
     text-decoration: none;
     border-bottom: 1px solid #b0deff;
-    width: 200px;
-    margin-left: -70px;
+    width: 150px;
+    margin-left: -65px;
 }
 
 .d2 a{
     text-decoration: none;
     border-bottom: 1px solid #b0deff;
-    width: 200px;
-    margin-left: -70px;
+    width: 150px;
+    margin-left: -65px;
 }
 
 .d3 a{
     text-decoration: none;
-    border-bottom: 1px solid #b0deff;
-    width: 200px;
+    width: 150px;
+    padding-left: 18px;
     margin-left: -70px;
 }
 
@@ -262,7 +288,7 @@ h1 {
 }
 
 .dw {
-    margin-top: 200px;
+    margin-top: 160px;
     width: 1260px;
     margin-left: -30px;
     overflow: hidden;
@@ -273,6 +299,7 @@ h1 {
     overflow: hidden;
     display: inline-block;
     position: relative;
+    
 }
 
 .sep1 {
@@ -310,19 +337,15 @@ h1 {
 .fp {
     padding-left: 1110px;
     font-size: 13px;
-    margin-top: -15px;
+    margin-top: -20px;
 }
 
 .preloader {
     position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    overflow: hidden;
     /* фоновый цвет */
     background: #e0e0e0;
     z-index: 1001;
+    inset: 0;
   }
   
   .preloader__image {
