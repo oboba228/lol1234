@@ -51,7 +51,7 @@ select {
     width: 1920px;
 }
 
-.headerdiv {
+.header{
     height: 40px;
     width: auto;
     background: #2848ff;
@@ -99,11 +99,24 @@ color: rgb(255, 255, 255);
     height: 80px;
 }
 
+@media (max-width: 1410px) {
+    .secdiv{
+        height: 55px;
+    }
+}
+
 .name-sch {
     padding-left: 630px;
     padding-top: 6px;
     font-size: 40px;
     color: #fff;
+}
+
+@media (max-width: 1410px) {
+    .name-sch{
+        padding-left: -50px;
+        font-size: 25px;
+    }
 }
 
 .imagef {
@@ -113,10 +126,10 @@ color: rgb(255, 255, 255);
     max-width: 100%;
 }
 
-@media (max-width: 1410px) {
+@media (max-width: 1400px) {
     .imagef{
         width: 200px;
-        margin-top: -202px;
+        margin-top: -142px;
         max-width: 70%;
     }
 }
@@ -133,9 +146,18 @@ color: rgb(255, 255, 255);
 
 @media (max-width: 1410px) {
     .main_info{
-        margin-left: 100px;
+        margin-left: 170px;
         font-size: 13px;
         width: 600px;
+    }
+}
+
+@media (max-width: 990px) {
+    .main_info{
+        margin-left: -3rem;
+        font-size: 13px;
+        width: 600px;
+        display: inline-block;
     }
 }
 
@@ -157,19 +179,36 @@ hr {
     width: 735px;
 }
 
+@media (max-width: 1410px) {
+    hr{
+       width: 575px;
+    }
+}
+
 .maindiv {
-        width: 1250px;
-        margin-left: 150px;
-        height: 1040px;
+    width: 1250px;
+    margin-left: 150px;
+    height: 1040px;
+    background: #fff;
+    margin-top: 120px;
+    overflow: hidden;
+    border-radius: 3px 5px 0px 0px;
+    }
+
+@media (max-width: 1510px) {
+    .maindiv{
+        margin-left: 30px;
+        margin-right: 30px;
         background: #fff;
-        margin-top: 120px;
         overflow: hidden;
         border-radius: 3px 5px 0px 0px;
     }
+}
 
-@media (max-width: 1410px) {
+@media (max-width: 1390px) {
     .maindiv{
         margin-left: 30px;
+        margin-right: 30px;
         background: #fff;
         overflow: hidden;
         border-radius: 3px 5px 0px 0px;
@@ -180,7 +219,7 @@ hr {
     width: 1030px;
     height: 450px;
     margin-left: 130px;
-    margin-top: 110px;
+    margin-top: 130px;
     box-shadow: 2px 2px 2px 2px ;
 }
 
@@ -211,7 +250,7 @@ hr {
 
 .dw1 {
     width: 730px;
-    margin-top: 10px;
+    margin-left: 99px;
     overflow: hidden;
     border-bottom: 3px dashed #ddd;
 }
@@ -239,7 +278,6 @@ hr {
 .word {
     font-size: 45px;
     padding-top: 70px;
-    padding-left: 100px;
     color: #ccb1d6;
     visibility: visible;
     font-family: georgia,serif;
@@ -248,7 +286,7 @@ hr {
 @media (max-width: 1410px) {
     .word {      
         font-size: 24px;
-        margin-left: -100px;
+        padding-left: 100px;
     }
 }
 
@@ -268,7 +306,7 @@ hr {
     border: 1px solid #fff;
     color: #006db9;
     background: #F3F5FF;
-    margin-left: 30px;
+    margin-left: 40px;
     box-shadow: 0px 0px 3px 0px ;
     cursor: pointer;
     vertical-align: middle;
@@ -276,10 +314,10 @@ hr {
 
 @media (max-width: 1410px) {
     .mainsc_column{
-        height: 110px;
-        width: 130px;
-        margin-top: -390x;
-        margin-left: 10px;
+        height: 7rem;
+        width: 8rem;
+        margin-top: -20rem;
+        margin-left: 30px;
     }
 }
 
@@ -342,39 +380,45 @@ hr {
 }
 
 @media (max-width: 1410px){
-    .d1, .d2 a {
+    .d1, .d2 a, .d3 a{
         width: 130px;
     }
 }
 
 h1 {
     padding-left: 250px;
-    padding-bottom: 580px;
+    padding-bottom: 0px;
 }
 
-.sch_news_item {
-    margin-left:150px;
-    margin-top: -560px;
-} 
+.text {
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+.sch_news_item1 {
+    margin-left: 100px;
+    margin-top: 30px;
+}
 
 @media (max-width: 1410px) {
-    .sch_news_item {      
+    .sch_news_item1 {      
         margin-left: 100px;
     }
 }
 
 .sch_news_item2 {
-    margin-top: 20px;
+    margin-left: 100px;
+    margin-top: 30px;
 }
 
 .sch_news_item3 {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .dw {
-    margin-top: 140px;
+    margin-top: 128px;
     width: 1260px;
-    margin-left: -30px;
+    margin-left: -8rem;
     overflow: hidden;
     border-bottom: 3px dashed #ddd;
 }
@@ -383,13 +427,12 @@ h1 {
     overflow: hidden;
     display: inline-block;
     position: relative;
-    
 }
 
 .sep1 {
     height: 18px;
     width: 1px;
-    margin-left: 540px;
+    margin-left: 467px;
     margin-top: -20px;
     background-color: #000;
 }
@@ -397,7 +440,7 @@ h1 {
 .sep2 {
     height: 18px;
     width: 1px;
-    margin-left: 600px;
+    margin-left: 530px;
     margin-top: -18px;
     background-color: #000;
 }
@@ -408,20 +451,23 @@ h1 {
 
 .fm3 {
     margin-left: 20px;
+    text-decoration: none;
 }
 
 .fm2 {
     margin-left: 20px;
+    text-decoration: none;
 }
 
 .fm1 {
-    margin-left: 450px;
+    margin-left: 380px;
+    text-decoration: none;
 }
 
 .fp {
-    padding-left: 1110px;
+    padding-left: 980px;
+    margin-top: -20px;
     font-size: 13px;
-    margin-top: -22px;
 }
 
 .preloader {
