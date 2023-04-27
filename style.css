@@ -553,7 +553,7 @@ h1 {
     padding: 6px 10px;
     cursor: pointer;
     background: #E2E7FF;
-    margin-left: -195px;
+    margin-left: -182px;
     margin-top: -140px;
     width: 160px;
     border-left: 1px solid #3f3d61;
@@ -568,8 +568,8 @@ h1 {
         padding: 6px 10px;
         cursor: pointer;
         background: #E2E7FF;
-        margin-left: -34.1%;
-        margin-top: 80px;
+        margin-left: -34%;
+        margin-top: -110px;
         width: 160px;
         border-left: 1px solid #3f3d61;
         border-right: 1px solid #3f3d61;
@@ -600,13 +600,27 @@ h1 {
 
 .vote_box {
     padding: 5px;
-    margin-left: -171px;
+    margin-left: -182px;
     position: relative;
     font-size: 14px;
     line-height: 13px;
     width: 160px;
     background-color: #fcfcfc;
     border: 1px solid #3f3d61;
+}
+
+@media (max-width: 992px) {
+    .vote_box {
+        padding: 5px;
+        margin-left: -34%;   
+        margin-top: 0%;
+        position: relative;
+        font-size: 14px;
+        line-height: 13px;
+        width: 160px;
+        background-color: #fcfcfc;
+        border: 1px solid #3f3d61;
+    }
 }
 
 @media (max-width: 768px) {
