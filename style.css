@@ -67,6 +67,7 @@ select {
     .mw{
         padding-left: 20%;
         padding-top: 7px;
+        transition: 0.05s;
     }
 }
 
@@ -74,6 +75,7 @@ select {
     .mw{
         padding-left: 10%;
         padding-top: 7px;
+        transition: 0.05s;
     }
 }
 
@@ -118,6 +120,7 @@ color: rgb(255, 255, 255);
 @media (max-width: 1410px) {
     .secdiv{
         height: 55px;
+        transition: 0.05s;
     }
 }
 
@@ -131,12 +134,15 @@ color: rgb(255, 255, 255);
 @media (max-width: 1410px) {
     .name-sch{
         font-size: 25px;
+        transition: 0.05s;
     }
+    
 }
 
 @media (max-width: 1410px) {
     .name-sch{
-        font-size: 25px;
+        font-size: 30px;
+        transition: 0.05s;
     }
 }
 
@@ -144,6 +150,7 @@ color: rgb(255, 255, 255);
     .name-sch{
         font-size: 25px;
         padding-left: 29%;
+        transition: 0.05s;
     }
 }
 
@@ -157,20 +164,23 @@ color: rgb(255, 255, 255);
 @media (max-width: 1410px) {
     .imagef{
         width: 200px;
-        margin-top: -60px;
+        margin-top: -67px;
         max-width: 70%;
+        transition: 0.05s;
     }
 }
 
 @media (max-width: 1170px) {
     .imagef{
         margin-left: 15%;
+        transition: 0.05s;
     }
 }
 
 @media (max-width: 680px) {
     .imagef{
         margin-left: 7%;
+        transition: 0.05s;
     }
 }
 
@@ -188,6 +198,7 @@ color: rgb(255, 255, 255);
     .main_info{
         margin-left: 220px;
         font-size: 13px;
+        transition: 0.05s;
     }
 }
 
@@ -195,6 +206,8 @@ color: rgb(255, 255, 255);
     .main_info{
         margin-left: 160px;
         font-size: 13px;
+        transition: 0.5s;
+        transition: 0.05s;
     }
 }
 
@@ -204,6 +217,7 @@ color: rgb(255, 255, 255);
         font-size: 12px;
         width: 550px;
         display: inline-block;
+        transition: 0.05s;
     }
 }
 
@@ -213,6 +227,7 @@ color: rgb(255, 255, 255);
         font-size: 14px;
         width: 550px;
         display: inline-block;
+        transition: 0.05s;
     }
 }
 
@@ -231,6 +246,7 @@ dd{
 @media (max-width: 1410px) {
     .dd {
         font-size: 10px;
+        transition: 0.05s;
     }
 }
 
@@ -241,12 +257,13 @@ hr {
 @media (max-width: 1410px) {
     hr{
        width: 575px;
+       transition: 0.05s;
     }
 }
 
 .maindiv {
-    width: 1000px;
-    margin-left: 100px;
+    width: 950px;
+    margin-left: 230px;
     height: 1040px;
     background: #fff;
     margin-top: 120px;
@@ -262,6 +279,7 @@ hr {
         overflow: hidden;
         border-radius: 3px 5px 0px 0px;
         width: 880px;
+        transition: 0.05s;
     }
 }
 
@@ -273,6 +291,7 @@ hr {
         overflow: hidden;
         border-radius: 3px 5px 0px 0px;
         width: 920px;
+        transition: 0.05s;
     }
 }
 
@@ -284,6 +303,7 @@ hr {
         overflow: hidden;
         border-radius: 3px 5px 0px 0px;
         width: 1300px;
+        transition: 0.05s;
     }
 }
 
@@ -295,6 +315,7 @@ hr {
         overflow: hidden;
         border-radius: 3px 5px 0px 0px;
         width: 621px;
+        transition: 0.05s;
     }
 }
 
@@ -307,6 +328,7 @@ hr {
         overflow: hidden;
         border-radius: 3px 5px 0px 0px;
         width: 620px;
+        transition: 0.05s;
     }
 }
 
@@ -321,6 +343,7 @@ hr {
     .div_news{
         margin-left: 220px;
         width: 630px;
+        transition: 0.05s;
     }
 }
 
@@ -328,6 +351,7 @@ hr {
     .div_news{
         margin-left: 210px;
         width: 550px;
+        transition: 0.05s;
     }
 }
 
@@ -336,6 +360,7 @@ hr {
         width: 500px;
         font-size: 14px;
         margin-left: 26%;
+        transition: 0.05s;
     }
 }
 
@@ -344,6 +369,7 @@ hr {
         width: 500px;
         font-size: 14px;
         margin-left: 10%;
+        transition: 0.05s;
     }
 }
 
@@ -379,6 +405,7 @@ hr {
 @media (max-width: 1410px) {
     .dw1, .dw2, .dw3 {      
         width: 400px;
+        transition: 0.05s;
     }
 }
 
@@ -395,6 +422,7 @@ hr {
     .word {      
         font-size: 24px;
         padding-left: 100px;
+        transition: 0.05s;
     }
 }
 
@@ -402,6 +430,7 @@ hr {
     .word {      
         font-size: 20px;
         padding-left: 50px;
+        transition: 0.05s;
     }
 }
 
@@ -433,6 +462,7 @@ hr {
         width: 8rem;
         margin-top: -31rem;
         margin-left: 15px;
+        transition: 0.05s;
     }
 }
 
@@ -442,6 +472,7 @@ hr {
         width: 8rem;
         margin-top: -29rem;
         margin-left: 6px;
+        transition: 0.05s;
     }
 }
 
@@ -451,6 +482,7 @@ hr {
         width: 8rem;
         margin-top: -35rem;
         margin-left: 20px;
+        transition: 0.05s;
     }
 }
 
@@ -460,6 +492,7 @@ hr {
         width: 8rem;
         margin-top: -32rem;
         margin-left: -17px;
+        transition: 0.05s;
     }
 }
 
@@ -477,6 +510,7 @@ hr {
 @media (max-width: 1410px) {
     .mainsc_column a{
         font-size: 12px;
+        transition: 0.05s;
     }
 }
 
@@ -524,6 +558,7 @@ hr {
 @media (max-width: 1410px){
     .d1, .d2 a, .d3 a{
         width: 130px;
+        transition: 0.05s;
     }
 }
 
@@ -545,6 +580,7 @@ h1 {
 @media (max-width: 1410px) {
     .sch_news_item1 {      
         margin-left: 100px;
+        transition: 0.05s;
     }
 }
 
@@ -593,6 +629,7 @@ h1 {
         border-left: 1px solid #3f3d61;
         border-right: 1px solid #3f3d61;
         border-top: 1px solid #3f3d61;
+        transition: 0.05s;
     }
 }
 
@@ -609,6 +646,7 @@ h1 {
         border-left: 1px solid #3f3d61;
         border-right: 1px solid #3f3d61;
         border-top: 1px solid #3f3d61;
+        transition: 0.05s;
     }
 }
 
